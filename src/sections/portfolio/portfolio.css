@@ -66,6 +66,8 @@
 
 .portfolio__project p {
   margin: 0.5rem 0 2rem;
+  justify-content: flex-start;
+  text-align: justify;
 }
 
 .portfolio__project-cta {

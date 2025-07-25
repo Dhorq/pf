@@ -1,18 +1,18 @@
-import { links, socials } from "./data";
+// import { links, socials } from "./data";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="container footer__container">
+      {/* <div className="container footer__container">
         <ul className="nav__menu">
           {links.map((fLink) => (
             <li key={fLink.id}>
               <a href={fLink.link}>{fLink.title}</a>
             </li>
           ))}
-        </ul>
-        {/* <div className="footer__socials">
+        </ul> */}
+      {/* <div className="footer__socials">
           {socials.map((social) => (
             <a
               key={social.id}
@@ -24,7 +24,8 @@ const Footer = () => {
             </a>
           ))}
         </div> */}
-      </div>
+      {/* </div> */}
+      <p>&copy; Dhorq</p>
     </footer>
   );
 };

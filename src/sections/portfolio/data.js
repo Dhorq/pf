@@ -6,6 +6,15 @@ import Image4 from "../../assets/ongbe.jpg";
 const data = [
   {
     id: 1,
+    category: "Full Stack",
+    image: Image4,
+    title: "Dhorq Digest",
+    desc: "Personal fullstack application intended to captures everything I learn on a daily basis, from coding and new concepts to small yet valuable insights..",
+    demo: null,
+    github: null,
+  },
+  {
+    id: 2,
     category: "Frontend",
     image: Image1,
     title: "Dahlia Family House",
@@ -14,7 +23,7 @@ const data = [
     github: "https://github.com/Dhorq/dfh",
   },
   {
-    id: 2,
+    id: 3,
     category: "Backend",
     image: Image4,
     title: "Backend",
@@ -23,7 +32,7 @@ const data = [
     github: null,
   },
   {
-    id: 3,
+    id: 4,
     category: "Tableau",
     image: Image2,
     title: "HR Dashboard",
@@ -32,7 +41,7 @@ const data = [
     github: null,
   },
   {
-    id: 4,
+    id: 5,
     category: "Data Pipeline",
     image: Image3,
     title: "Stock Market Pipeline",
@@ -41,7 +50,7 @@ const data = [
     github: "https://github.com/Dhorq/stock-market-pipeline",
   },
   {
-    id: 5,
+    id: 6,
     category: "Data Pipeline",
     image: Image3,
     title: "APOD NASA ETL Pipeline",

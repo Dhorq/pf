@@ -7,7 +7,12 @@
 
 .card.faq:hover {
   cursor: pointer;
-  background: var(--color-white);
+  background-color: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.faq__icon:hover {
+  cursor: pointer;
 }
 
 .faq > div {
