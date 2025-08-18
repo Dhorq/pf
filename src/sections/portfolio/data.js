@@ -2,6 +2,8 @@ import Image1 from "../../assets/dfh.png";
 import Image2 from "../../assets/hrdashboard.png";
 import Image3 from "../../assets/airflow.jpg";
 import Image4 from "../../assets/ongbe.jpg";
+import Image5 from "../../assets/touravel.png";
+import Image6 from "../../assets/double-degree.png";
 
 const data = [
   {
@@ -57,6 +59,24 @@ const data = [
     desc: "An ETL pipeline using Apache Airflow to extract, transform, and load NASA APOD data into PostgreSQL.",
     demo: null,
     github: "https://github.com/Dhorq/APOD-NASA-ETL-Pipeline",
+  },
+  {
+    id: 7,
+    category: "Frontend",
+    image: Image6,
+    title: "Double Degree",
+    desc: "A website-based application developed for my thesis using only HTML5 and CSS3, designed for desktop use without responsive design, focusing on system functionality rather than UI/UX.",
+    demo: null,
+    github: "https://github.com/Dhorq/double-degree",
+  },
+  {
+    id: 8,
+    category: "Frontend",
+    image: Image5,
+    title: "Touravel",
+    desc: "A website-based home landing page for a Travel Tour Website built using only HTML5 and CSS3, focusing on the user interface and clean layouts without frameworks or JavaScript, designed for desktop use only, with extensive HTML and CSS code written to strengthen front-end fundamentals and explore areas for scalability and future enhancements.",
+    demo: null,
+    github: "https://github.com/Dhorq/travel-s",
   },
 ];
 
